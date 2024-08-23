@@ -47,18 +47,18 @@ To start the application, use the following command:
 ## Access the Application
 Once the application is running, you can access the endpoints:
 
-Aggregated Stats: GET http://localhost:3000/api/social-stats
-Platform Stats: GET http://localhost:3000/api/platform/:platform (replace :platform with twitter or instagram)
+- Aggregated Stats: GET http://localhost:3000/api/social-stats
+- Platform Stats: GET http://localhost:3000/api/platform/:platform (replace :platform with twitter or instagram)
 
 ## Testing
 To run the tests, use the following command:
-    ```bash
+```bash
     npm test
-    ```
+```
 This will execute the Jest test suite to ensure that your application behaves as expected.
 
 ## API Documentation
-Endpoints
+Endpoints :
 - GET /api/social-stats: Returns aggregated statistics from multiple social media platforms.
 - GET /api/platform/:platform: Returns detailed statistics for a specific platform (twitter or instagram).
 
