@@ -66,3 +66,7 @@ Endpoints :
 - Mock APIs: The application integrates with mock APIs to simulate real social media platforms.
 - Caching: Responses are cached for 5 minutes to optimize performance and reduce API calls.
 - Environment Variables: Configuration settings are managed via environment variables for flexibility and security.
+
+## Deployment
+- Deployed on Render.
+- URL : [Social Media Data Aggregation Service](https://synthiq-assignment-1.onrender.com)
